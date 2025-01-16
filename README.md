@@ -100,8 +100,3 @@ http://jobs.pizza.com/city
     ```
     cat urls.txt
     ```
-
-## License
-
-GNU GPLv3
-
