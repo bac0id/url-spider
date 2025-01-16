@@ -84,15 +84,15 @@ http://jobs.pizza.com/city
 1.  Clone
     
     ```
-    git clone 
+    git clone https://github.com/bac0id/url-spider.git
     ```
 
 2.  Run
 
-    Get URLs at `ttps://example.com`, set `max_distance` to 2, and output to `urls.txt`.
+    Get URLs at `ttps://example.com`, set `max_distance` to 2, output to file `urls.txt`, mode of crawling to `0` (one time crawling).
     
     ```
-    python main.py https://example.com -d 2 -f urls.txt
+    python main.py https://example.com -d 2 -f urls.txt -m 0
     ```
 
 3.  Check result
